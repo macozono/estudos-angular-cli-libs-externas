@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/hammerjs/hammer.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "angular-cli-libs-externas"
+  "defaultProject": "angular-cli-libs-externas",
+  "cli": {
+    "analytics": "cc9a4b7d-5635-4de5-bca6-e9463706c225"
+  }
 }
